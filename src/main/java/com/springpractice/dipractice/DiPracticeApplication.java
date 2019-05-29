@@ -19,8 +19,8 @@ public class DiPracticeApplication {
 
         myController.hello();
 
+        System.out.println(myController.hello());
         System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
-
         System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
         System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
 
